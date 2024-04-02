@@ -1,0 +1,18 @@
+:root {
+  --bigsize: 80px;
+}
+
+.textMain {
+  font-size: var(--bigsize);
+  background: -webkit-linear-gradient(#e4e80c, #017387);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.h-fitcontent {
+  height: fit-content;
+}
+
+.h100vh {
+  height: 100vh;
+}
